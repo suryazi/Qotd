@@ -16,7 +16,6 @@
     <body>
         <div id="header">
             <img src="<g:createLinkTo dir='images' file='logo.png'/>" alt="logo"/>
-        <h1>Sample line</h1>
         </div>
         <g:layoutBody/> <!-- Merges body elements from target page-->
     </body>
