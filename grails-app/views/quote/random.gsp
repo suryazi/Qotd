@@ -12,7 +12,9 @@
         <title>Random Quote</title>
     </head>
     <body>
-        <q>${content}</q>
-        <p>${author}</p>
+        <div id="quote>
+            <q>${content}</q>
+            <p>${author}</p>
+        </div>
     </body>
 </html>
