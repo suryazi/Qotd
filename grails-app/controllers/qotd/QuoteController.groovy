@@ -9,8 +9,10 @@ class QuoteController {
         render"<h1>Real programmers do not eat Quiche</h1>"
     }
     def random() {
-        def staticAuthor="anonymous"
+        /*def staticAuthor="anonymous"
         def staticContent = "Real Programmers don't eat quiche"
-        [author:staticAuthor, content:staticContent]
+        [author:staticAuthor, content:staticContent]*/
+        def staticQuote=new Quote(author:"Anonymous",content:"Real Programmers Don't eat quiche")
+        [quote:staticQuote]
     }
 }

@@ -2,7 +2,7 @@ package qotd
 
 class Quote {
     
-    String Content
+    String content
     String author
     Date create=new Date()
 
